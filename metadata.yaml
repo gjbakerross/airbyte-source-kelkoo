@@ -1,0 +1,22 @@
+data:
+  allowedHosts:
+    hosts:
+      - TODO # Please change to the hostname of the source.
+  registries:
+    oss:
+      enabled: false
+  connectorSubtype: api
+  connectorType: source
+  definitionId: 93d105dd-3c5e-4b34-a5fc-14582aa861a5
+  dockerImageTag: 0.1.0
+  dockerRepository: airbyte/source-kelkoo-statistics
+  githubIssueLabel: source-kelkoo-statistics
+  icon: kelkoo-statistics.svg
+  license: MIT
+  name: Kelkoo Statistics
+  releaseDate: TODO
+  releaseStage: alpha
+  documentationUrl: https://docs.airbyte.com/integrations/sources/kelkoo-statistics
+  tags:
+    - language:lowcode
+metadataSpecVersion: "1.0"
